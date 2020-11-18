@@ -17,9 +17,9 @@ function Main() {
                 
             </div>
             <div class="flex flex-wrap -m-4">
-                <div class="lg:w-1/3 sm:w-1/2 p-4 rounded-md">
-                    <div class="flex relative">
-                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={netflix}/>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                    <div class="flex relative shadow-sm border-2 border-solid border-gray-500 rounded-md border-opacity-25">
+                        <img alt="gallery" class="rounded-md absolute inset-0 w-full h-full object-cover object-center" src={netflix}/>
                         <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 opacity-0 hover:opacity-100">
                             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">entertainment</h2>
                             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Netflix clone project</h1>
@@ -28,8 +28,8 @@ function Main() {
                     </div>
                 </div>
                 <div class="lg:w-1/3 sm:w-1/2 p-4">
-                    <div class="flex relative">
-                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={weathergads}/>
+                    <div class="flex relative shadow-sm border-2 border-solid border-gray-500 rounded-md border-opacity-25">
+                        <img alt="gallery" class="rounded-md absolute inset-0 w-full h-full object-cover object-center" src={weathergads}/>
                         <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 opacity-0 hover:opacity-100">
                             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">PWA</h2>
                             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Weather App</h1>
@@ -38,8 +38,8 @@ function Main() {
                     </div>
                 </div>
                 <div class="lg:w-1/3 sm:w-1/2 p-4">
-                    <div class="flex relative">
-                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={nsita}/>
+                    <div class="flex relative shadow-sm border-2 border-solid border-gray-500 rounded-md border-opacity-25">
+                        <img alt="gallery" class="rounded-md absolute inset-0 w-full h-full object-cover object-center" src={nsita}/>
                         <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 opacity-0 hover:opacity-100">
                             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Online Store</h2>
                             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">nsita</h1>
@@ -48,8 +48,8 @@ function Main() {
                     </div>
                 </div>
                 <div class="lg:w-1/3 sm:w-1/2 p-4">
-                    <div class="flex relative">
-                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={freeAccessContent}/>
+                    <div class="flex relative shadow-sm border-2 border-solid border-gray-500 rounded-md border-opacity-25">
+                        <img alt="gallery" class="rounded-md absolute inset-0 w-full h-full object-cover object-center" src={freeAccessContent}/>
                         <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 opacity-0 hover:opacity-100">
                             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Education</h2>
                             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Free-Access-Education</h1>
@@ -58,8 +58,8 @@ function Main() {
                     </div>
                 </div>
                 <div class="lg:w-1/3 sm:w-1/2 p-4">
-                    <div class="flex relative">
-                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={shopui}/>
+                    <div class="flex relative shadow-sm border-2 border-solid border-gray-500 rounded-md border-opacity-25">
+                        <img alt="gallery" class=" rounded-md absolute inset-0 w-full h-full object-cover object-center" src={shopui}/>
                         <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 opacity-0 hover:opacity-100">
                             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Online store</h2>
                             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Just another ui store</h1>
@@ -68,8 +68,8 @@ function Main() {
                     </div>
                 </div>
                 <div class="lg:w-1/3 sm:w-1/2 p-4">
-                    <div class="flex relative">
-                        <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={pictures}/>
+                    <div class="flex relative shadow-sm border-2 border-solid border-gray-500 rounded-md border-opacity-25">
+                        <img alt="gallery" class="rounded-md absolute inset-0 w-full h-full object-cover object-center" src={pictures}/>
                         <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 opacity-0 hover:opacity-100">
                             <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">search</h2>
                             <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Picture Search Online</h1>
