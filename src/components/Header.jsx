@@ -1,5 +1,4 @@
 import React from 'react';
-import download from '../assets/download.png';
 
 class Header extends React.Component  {
 
