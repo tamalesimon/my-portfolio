@@ -2,9 +2,10 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className="footer-container">
-            <div className="container mx-auto flex-row flex pb-24">
-                <section className="w-1/2">
+        <div className="footer-container ">
+            <div className="container mx-auto">
+            <div className=" md:flex-row md:flex md:pb-24">
+                <section className="md:w-1/2 px-4">
                     <h1 className="footer-title">About me</h1>
                     <p className="footer-content">My name is Simon Peter Tamale, I am a front-end developer based in Kampala, Uganda. I specialize in creating interactive experiences and functional interfaces using JavaScript for web and mobile devices.<br/><br/>
 
@@ -12,7 +13,7 @@ function Footer() {
 
                     A capable team player and always eager to learn something new.</p>
                 </section>
-                <section className="w-1/2 ml-16">
+                <section className="md:w-1/2 md:ml-16 ml-4 mt-10 md:mt-0 pr-4">
                     <h1 className="footer-title">Let's talk</h1>
                     <div className="email mb-8">
                         <a className="hover:text-blue-600" href="mailto:tamalesp@gmail.com">tamalesp@gmail.com</a>
@@ -30,9 +31,10 @@ function Footer() {
 
                 </section>
             </div>
-            <div className="footer-content container mx-auto mt-8 text-sm">
+            <div className="footer-content container mx-auto mt-10 md:mt-8 ml-4 text-sm">
                 Simon Peter Tamale &#169; 2020
             </div>
+            </div>            
         </div>
     )
 }

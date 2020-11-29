@@ -3,8 +3,27 @@
   font-weight: 600;
   font-size: 60px;
   line-height: 72px;
-  margin-top: 130px;
+  margin-top: 80px;
   display: block;
+}
+
+@media (max-width:500px) {
+  .header-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .header-title2 {
+    font-size: 14px;
+  }
+}
+
+.site-title {
+  font-family: 'Inter', sans-serif;
+  /* color: #0072FF; */
+}
+
+.nav-bar {
+  font-family: 'Inter', sans-serif;
 }
 
 .header-title2 { 
@@ -57,6 +76,7 @@ p {
 .social-media {
 color: #919192;
 font-weight: 400;
+line-height: 20px;
 }
 
 span {
@@ -66,6 +86,6 @@ span {
 .small-text {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  line-height: 38px;
+  line-height: 20px;
   color: #0072FF;
 }
