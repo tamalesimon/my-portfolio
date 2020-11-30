@@ -50,8 +50,8 @@ class Header extends React.Component  {
 
                 <div></div>
                 <div className={`sm:flex justify-center text-base nav-bar md:flex md:flex-row ml-2 pr-4 md:items-center ${this.state.isOpen ? `block text-xl` : `hidden`}`}>
-                    <a className="ml-1 block font-medium text-gray-800 hover:bg-gray-200 py-3 px-4 rounded-md items-center hover:text-gray-800" href="http://">About</a>
-                    <a className="ml-1 block font-medium text-gray-800  hover:bg-gray-200 py-3 px-4 rounded-md items-center hover:text-gray-800" href="http://">Portfolio</a>
+                    <a className="ml-1 block font-medium text-gray-800 hover:bg-gray-200 py-3 px-4 rounded-md items-center hover:text-gray-800" href="#ABOUT">About</a>
+                    <a className="ml-1 block font-medium text-gray-800  hover:bg-gray-200 py-3 px-4 rounded-md items-center hover:text-gray-800" href="#PORTFOLIO">Portfolio</a>
                     <a className="ml-1 block font-medium text-gray-800  hover:bg-gray-200 py-3 px-4 rounded-md items-center hover:text-gray-800" href="https://drive.google.com/file/d/12gPEqizesMG3QG9aBCmPWPXfWRhshciG/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                 </div>
 

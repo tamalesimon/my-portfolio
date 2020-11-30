@@ -6,7 +6,7 @@ function Footer() {
             <div className="container mx-auto">
             <div className=" md:flex-row md:flex md:pb-24">
                 <section className="md:w-1/2 px-4">
-                    <h1 className="footer-title">About me</h1>
+                    <h1 id="ABOUT" className="footer-title">About me</h1>
                     <p className="footer-content">My name is Simon Peter Tamale, I am a front-end developer based in Kampala, Uganda. I specialize in creating interactive experiences and functional interfaces using JavaScript for web and mobile devices.<br/><br/>
 
                     Versatile developer with real-world experience designing, developing, and implementing complex technical solutions for the web.<br/><br/>

@@ -14,7 +14,7 @@ function MainContent() {
 <section class="text-gray-700 body-font">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col w-full mb-20">
-                <h1 class="second-title sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Portfolio</h1>                
+                <h1 id="PORTFOLIO" class="second-title sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Portfolio</h1>                
             </div>
             <div class="flex flex-wrap -m-4">
                 <PortfolioItem 
