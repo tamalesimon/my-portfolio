@@ -89,3 +89,15 @@ span {
   line-height: 20px;
   color: #0072FF;
 }
+
+@media (max-width: 767px) {
+  .brand {
+    justify-content: center;
+  }
+}
+
+@media (max-width:640px) {
+  .brand2 {
+    justify-content: space-between;
+  }
+}

@@ -31,9 +31,9 @@ class Header extends React.Component  {
     return (
         <div className="container mx-auto">
             <div className="flex flex-col justify-center md:items-center mt-4 md:flex md:flex-row md:justify-between md:mt-4">
-                <div className="flex-row flex justify-between items-center mr-2">
+                <div className="brand brand2 flex-row flex justify-between items-center mr-2">
                 <div className="ml-2 sm:hidden">
-                    <button className=" ease-in select-none"
+                    <button className="ease-in select-none"
                         onClick={this.toggleNavMenu}
                         type="button"
                     >
@@ -42,7 +42,7 @@ class Header extends React.Component  {
                         </svg>
                     </button>
                 </div>
-                <div className="ml-4 px-4 py-3 border-gray-800 rounded-md border-solid border-2 cursor-pointer ">
+                <div className="md:justify-center ml-4 px-4 py-3 border-gray-800 rounded-md border-solid border-2 cursor-pointer ">
                     <h1 className="site-title text-gray-800 text-base font-medium">Simon Peter Tamale</h1>
                 </div>
                 </div>
