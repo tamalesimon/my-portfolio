@@ -3,10 +3,11 @@ import PortfolioItem from './portfolioItem';
 
 import netflix from '../assets/Netflix-Clone.png';
 import freeAccessContent from '../assets/React App.png';
-import nsita from '../assets/Nsita.png';
+//import nsita from '../assets/Nsita.png';
 import shopui from '../assets/Shop.png';
 import weathergads from '../assets/weathergads.png';
 import pictures from '../assets/Picture Search.png'; 
+import stock from '../assets/stock.png';
 
 function MainContent() {
     return (
@@ -42,12 +43,12 @@ function MainContent() {
                 link="https://github.com/tamalesimon/free-access-education"  />
 
                 <PortfolioItem 
-                itemSrc={nsita} 
-                idea="online store" 
-                title="Nsita"
-                description="Built with React, React-redux for state management, firebase and custom email authentication, then stripe for payments."
-                live="https://nsita-live.herokuapp.com/"
-                link="https://github.com/tamalesimon/nsita"  />
+                itemSrc={stock} 
+                idea="Dashboard for finance" 
+                title="StockiT"
+                description="This is a react project, firebase for database, and then retrieving realtime financial data from finnhub.io."
+                live="https://stockit.netlify.app/"
+                link="https://github.com/tamalesimon/stockit"  />
                 
                 <PortfolioItem 
                 itemSrc={pictures} 
